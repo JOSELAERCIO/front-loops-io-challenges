@@ -1,0 +1,89 @@
+body {
+    background: url(../img/background.jpg) no-repeat;
+    background-size: 100%;
+    font-family: Roboto, sans-serif;
+}
+
+#main {
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    width: 500px;
+}
+
+.bullets {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.bullet {
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #dedede;
+}
+
+.bullet.-active {
+    background-color: #aaaaaa;
+}
+
+.title-payment {
+    font-size: 32px;
+    margin: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.credit-card {
+    cursor: pointer;
+    display: table;
+    overflow: hidden;
+    border-top: 1px solid #dedede;
+}
+
+.credit-card > img {
+    height: 32px;
+    float: left;
+    margin: 25px 35px;
+}
+
+.credit-card > span {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 600;
+    color: #dedede;
+    text-transform: uppercase;
+}
+
+.credit-card:hover > span {
+    color: #000;
+}
+
+#next-step {
+    border: none;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: #598bdd;
+    background-image: url(assets/img/arrow.svg);
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 20px 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#next-step > img {
+    height: 16px;
+    margin-left: 10px;
+}
